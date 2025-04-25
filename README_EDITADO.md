@@ -36,6 +36,14 @@ Once you finish the assignment, submit a URL link to your repository or your pul
   - Names should be embedded within the `Contact` entity and not be stored in a separate table.
 
 3. List 3 tasks that can be accomplished with native SQL that you cannot do with JPQL. Explain why you would choose to use native SQL over JPQL for these specific tasks.
+--AQUÍ EMPIEZA LA EDICIÓN--
+
+-Native SQL afecta a la database, mientras que JPQL no lo hace
+-Puede usarse para queries mas avanzadas
+-Usa directamente lenguaje SQL
+
+--AQUÍ TERMINA LA EDICIÓN--
+
 
 <br>
 

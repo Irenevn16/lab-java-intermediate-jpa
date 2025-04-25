@@ -1,11 +1,18 @@
 package LabIntermediateJPA.demo.models;
 
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 
 
 @Entity
 public class Contact {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Embedded
     private Name name;
+
     private String title;
     private String company;
 

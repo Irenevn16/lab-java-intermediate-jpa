@@ -1,9 +1,11 @@
 package LabIntermediateJPA.demo.models;
 
-import jakarta.persistence.Entity;
+import jakarta.persistence.Embeddable;
 
-@Entity
+
+@Embeddable //no es entity porque esta embedded
 public class Name {
+    //estos campos serán columnas de contact
     private String firstName;
     private String lastName;
     private String middleName;
